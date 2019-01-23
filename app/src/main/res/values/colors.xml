@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textcolor">#1E90FF</color>
+    <color name="button">#33ccff</color>
+    <color name="fragranceColor">#FFFFFF</color>
+    <color name="fragrance_title">#4c4c4c</color>
+</resources>

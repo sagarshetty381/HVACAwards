@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "1035652382427",
+    "firebase_url": "https://hvacawards-20b7d.firebaseio.com",
+    "project_id": "hvacawards-20b7d",
+    "storage_bucket": "hvacawards-20b7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035652382427:android:8a3bd1b16c7cc6bd",
+        "android_client_info": {
+          "package_name": "example.com.hvacawards"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035652382427-mue62mhs753nt5bftiglgmmv0lvnsibs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "example.com.hvacawards",
+            "certificate_hash": "e410b92d6871a7490bf2dcbeea97eadcd8611ebd"
+          }
+        },
+        {
+          "client_id": "1035652382427-5m1clmekasvoj3vglqjjnvorjbi3f0hi.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1035652382427-5m1clmekasvoj3vglqjjnvorjbi3f0hi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY5qXIMQ5VC1YQO-yAQ4Xo6bsG_EB1p_A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035652382427-5m1clmekasvoj3vglqjjnvorjbi3f0hi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

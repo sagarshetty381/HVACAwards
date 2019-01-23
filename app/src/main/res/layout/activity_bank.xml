@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BankActivity"
+    android:id="@+id/drawerLayout9"
+    android:background="@drawable/profilel_header">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/banktv"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:background="@color/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bank Details"
+            android:gravity="center"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/nametv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/banktv"
+            android:layout_margin="10dp">
+            <EditText
+                android:id="@+id/nameet"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Name of the account holder"
+                android:textColor="@android:color/white"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/accnotv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nametv"
+            android:layout_margin="10dp">
+            <EditText
+                android:id="@+id/accnoet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="@android:color/white"
+                android:hint="Account Number"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/ifsctv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/accnotv"
+            android:layout_margin="10dp">
+            <EditText
+                android:id="@+id/ifscet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:inputType="textCapCharacters"
+                android:textColor="@android:color/white"
+                android:hint="IFSC code"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/namebanktv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ifsctv"
+            android:layout_margin="10dp">
+            <EditText
+                android:id="@+id/namebanket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="@android:color/white"
+                android:hint="Name of the bank"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/branchtv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/namebanktv"
+            android:layout_margin="10dp">
+            <EditText
+                android:id="@+id/branchet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:hint="Branch"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/banksubmit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:padding="16dp"
+            android:layout_margin="15dp"
+            android:background="@color/button"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/naviagtion"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/main"
+        android:layout_gravity="start"/>
+
+</android.support.v4.widget.DrawerLayout>

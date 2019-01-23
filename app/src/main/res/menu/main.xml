@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="My Profile"/>
+    <item
+        android:id="@+id/myprojects"
+        android:icon="@drawable/ic_folder_special_black_24dp"
+        android:title="My Projects"/>
+    <item
+        android:id="@+id/navprojects"
+        android:icon="@drawable/ic_folder_shared_black_24dp"
+        android:title="Projects"/>
+    <item
+        android:id="@+id/navbank"
+        android:icon="@drawable/ic_account_balance_black_24dp"
+        android:title="Bank Details"/>
+    <item
+        android:id="@+id/navratings"
+        android:icon="@drawable/ic_stars_black_24dp"
+        android:title="Ratings"/>
+    <item
+        android:id="@+id/navlogout"
+        android:icon="@drawable/ic_lock_open_black_24dp"
+        android:title="Logout"/>
+</menu>
